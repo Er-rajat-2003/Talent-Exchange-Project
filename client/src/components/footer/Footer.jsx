@@ -34,8 +34,8 @@ function Footer() {
             <h2>Support</h2>
             <span>Help & Support</span>
             <span>Trust & Safety</span>
-            <span>Selling on Fiverr</span>
-            <span>Buying on Fiverr</span>
+            <span>Selling on Talent Exchange</span>
+            <span>Buying on Talent Exchange</span>
           </div>
           <div className="item">
             <h2>Community</h2>
@@ -53,14 +53,14 @@ function Footer() {
           </div>
           <div className="item">
             <h2>More From Talent Exchange</h2>
-            <span>Fiverr Business</span>
-            <span>Fiverr Pro</span>
-            <span>Fiverr Logo Maker</span>
-            <span>Fiverr Guides</span>
+            <span>Talent Exchange Business</span>
+            <span>Talent Exchange Pro</span>
+            <span>Talent Exchange Logo Maker</span>
+            <span>Talent Exchange Guides</span>
             <span>Get Inspired</span>
-            <span>Fiverr Select</span>
+            <span>Talent Exchange Select</span>
             <span>ClearVoice</span>
-            <span>Fiverr Workspace</span>
+            <span>Talent Exchange Workspace</span>
             <span>Learn</span>
             <span>Working Not Working</span>
           </div>
@@ -68,8 +68,8 @@ function Footer() {
         <hr />
         <div className="bottom">
           <div className="left">
-            <h2>fiverr</h2>
-            <span>© Fiverr International Ltd. 2023</span>
+            <h2>Talent Exchange</h2>
+            <span>© Talent Exchange International Ltd. 2025</span>
           </div>
           <div className="right">
             <div className="social">
