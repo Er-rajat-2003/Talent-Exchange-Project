@@ -52,7 +52,7 @@ function Footer() {
             <span>Community Standards</span>
           </div>
           <div className="item">
-            <h2>More From Fiverr</h2>
+            <h2>More From Talent Exchange</h2>
             <span>Fiverr Business</span>
             <span>Fiverr Pro</span>
             <span>Fiverr Logo Maker</span>
