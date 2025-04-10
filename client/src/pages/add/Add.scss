@@ -4,7 +4,7 @@
 
   .container {
     width: 1400px;
-    padding: 50px 0px;
+    padding: 50px 0;
 
     h1 {
       width: max-content;
@@ -37,12 +37,12 @@
           padding: 20px;
         }
 
-        .images{
+        .images {
           display: flex;
           align-items: center;
           gap: 20px;
 
-          .imagesInputs{
+          .imagesInputs {
             display: flex;
             flex-direction: column;
             gap: 20px;
@@ -59,20 +59,20 @@
           cursor: pointer;
         }
 
-        .add{
+        .add {
           display: flex;
           justify-content: space-between;
 
-          input{
+          input {
             width: 80%;
           }
         }
 
-        .addedFeatures{
+        .addedFeatures {
           display: flex;
           gap: 20px;
 
-          button{
+          button {
             height: 30px;
             font-size: 12px;
             font-weight: 400;
@@ -85,6 +85,90 @@
           }
         }
       }
+    }
+  }
+
+  /* Mobile-first styles (for small screens) */
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    .sections {
+      flex-direction: column;
+      gap: 50px;
+    }
+
+    .info,
+    .details {
+      gap: 15px;
+    }
+
+    .add {
+      flex-direction: column;
+      align-items: flex-start;
+
+      input {
+        width: 100%;
+      }
+    }
+
+    .addedFeatures {
+      flex-direction: column;
+      gap: 10px;
+
+      button {
+        width: 100%;
+      }
+    }
+  }
+
+  /* Tablet styles */
+  @media (max-width: 1024px) {
+    .container {
+      width: 100%;
+      padding: 40px;
+    }
+
+    .sections {
+      flex-direction: column;
+      gap: 60px;
+    }
+
+    .info,
+    .details {
+      gap: 15px;
+    }
+
+    .add {
+      flex-direction: column;
+      align-items: flex-start;
+
+      input {
+        width: 100%;
+      }
+    }
+  }
+
+  /* Desktop and larger screens */
+  @media (min-width: 1025px) {
+    .container {
+      width: 1200px;
+      padding: 50px;
+    }
+
+    .sections {
+      gap: 100px;
+    }
+
+    .add {
+      flex-direction: row;
     }
   }
 }
